@@ -33,7 +33,9 @@ gaming_addiction.csv — 250 records with 49 columns describing a person's demog
 | Decision Tree | 0.99 | 0.94 |
 | Random Forest | 0.99 | 0.92 |
 | Neural Network | 0.85 | 0.80 |
+
 Logistic Regression was selected for deployment — it reached the top accuracy (tied with SVM) while being simpler, faster, and easier to serve in production.
+
 #8. Saving Artifacts for Deployment
 The following are serialized with joblib so the Streamlit app can load them without retraining:
 
